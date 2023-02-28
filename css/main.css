@@ -1,0 +1,156 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.banner{
+    padding: 192px 0;
+    width: 100%;
+    height: 604px;
+    color: #FFFFFF;
+    background: #66C05D url("../img/banner.png") center no-repeat;
+
+}
+.banner__wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: start;
+}
+.banner__title{
+    font-weight: 700;
+    font-size: 44px;
+    width: 308px;
+}
+.banner__text{
+    line-height: 20px;
+    width: 308px;
+}
+.banner__btn{
+    width: 170px;
+    height: 40px;   
+    color: #FFFFFF;
+    text-align: center;
+    letter-spacing: 0.05em;
+    padding: 12px 26px;
+    background: #66C05D;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+}
+.goods__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 75px;
+}
+.goods__title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+.goods__img{
+    width: 188px;
+    height: 61px;
+    margin-right: 45px;
+}
+.goods__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 16px;
+}
+.product{
+    width: 255px;
+    height: 363px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 25px 30px;
+    background: #FFFFFF;
+}
+.product__title{
+    line-height: 20px;
+    text-align: center;
+}
+.product__price{
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+.product__btn{
+    width: 130px;
+    height: 35px;
+    padding: 9px 40px;
+    background: #66C05D;
+    border-radius: 30px; 
+    text-align: center;
+    letter-spacing: 0.05em;         
+    color: #FFFFFF;   
+}
+.contacts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+}
+.contacts__wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 540px;
+    height: 212px;
+    background: #66C05D;
+    color: #FFFFFF;
+    padding: 35px 45px;
+    position: relative;
+    margin-bottom: 132px;
+}
+.contacts__title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+}
+.contacts__text{
+    line-height: 20px;
+}
+.subscribe{
+    width: 231px;
+}
+.shops{
+    width: 141px;
+}
+.contacts__input{
+    width: 225px;
+    height: 35px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    padding: 9px 25px;
+
+}
+.contacts__input::placeholder{
+    color: #C4C4C4;
+}
+.contacts__mail-btn{
+    position: absolute;
+    top: 53px;
+    right: 45px;
+    width: 140px;
+    height: 106.5px;
+    background: #66C05D;
+}
+.contacts__img{
+    width: 100%;
+}
+.contacts__btn{
+    width: 170px;
+    height: 35px;
+    padding: 9px 28px;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 30px;
+    text-align: center;
+}

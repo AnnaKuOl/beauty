@@ -1,0 +1,15 @@
+@import "./clear.css";
+@import "./header.css";
+@import "./main.css";
+@import "./footer.css";
+
+body{
+
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    background: #EFEFEF;
+}
+
+.container{
+    width: 1110px;
+    margin: 0 auto;
+}
